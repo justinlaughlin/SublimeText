@@ -1,0 +1,5 @@
+[
+	
+	{"keys": ["ctrl+c"], "command": "copy" },
+	{ "keys": ["ctrl+a"], "command": "select_all" }
+]

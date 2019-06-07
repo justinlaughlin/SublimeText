@@ -1,0 +1,17 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Six",
+		"Vintage",
+		"Vintageous"
+	],
+	"neovintageous_build_version": 11100,
+	"neovintageous_search_cur_style": "fill",
+	"neovintageous_search_occ_style": "outline",
+	"theme": "Adaptive.sublime-theme",
+	"vintageous_hlsearch": true,
+	"vintageous_use_ctrl_keys": true,
+	"vintageous_use_super_keys": null
+}

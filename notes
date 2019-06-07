@@ -1,0 +1,13 @@
+https://packagecontrol.io/docs/syncing
+
+
+first machine:
+cd ~/.config/sublime-text-3/Packages/
+mkdir ~/Dropbox/Sublime
+mv User ~/Dropbox/Sublime/
+ln -s ~/Dropbox/Sublime/User
+
+other machines:
+cd ~/.config/sublime-text-3/Packages/
+rm -r User
+ln -s ~/Dropbox/Sublime/User

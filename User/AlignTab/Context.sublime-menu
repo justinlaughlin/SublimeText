@@ -1,0 +1,21 @@
+[
+   {"caption" : "-"},
+    {
+      "id": "aligntab",
+      "caption": "AlignTab",
+      "children": [
+          {
+          "caption": "First Equal = no comments",
+          "command": "align_tab",
+          //"args": {"user_input" : "(?=^(?! *#.*).*$)(.*=)/f"}
+          "args": {"user_input": "^ *[a-zA-Z_0-9]+ */f"}
+          },
+          {
+          "caption": "First comment",
+          "command": "align_tab",
+          "args": {"user_input": "^\\s*[a-zA-Z_0-9]+\\s*= \\S* */f"}
+          }
+      ]
+  }
+]
+	
