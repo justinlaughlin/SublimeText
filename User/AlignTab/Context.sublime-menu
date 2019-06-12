@@ -13,7 +13,7 @@
           {
           "caption": "First comment",
           "command": "align_tab",
-          "args": {"user_input": "^\\s*[a-zA-Z_0-9]+\\s*= \\S* */f"}
+          "args": {"user_input": "^\\s*[a-zA-Z_0-9]+\\s*= [^#]*/f"}
           }
       ]
   }
