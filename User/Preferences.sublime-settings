@@ -1,25 +1,18 @@
 {
-    "font_size": 16,
-    "ignored_packages":
-    [
-        "Six",
-        "Vintage",
-        "Vintageous"
-    ],
-    "neovintageous_build_version": 11100,
-    "vintageous_use_ctrl_keys": true,
-    "vintageous_use_super_keys": false,
-
-
-    // Integer. The number of spaces a tab is considered equal to
-    "tab_size": 4,
-
-    // Boolean, if true, spaces will be inserted up to the next tab stop when tab is pressed, rather than inserting a tab character
-    "translate_tabs_to_spaces": true,
-
-    // Boolean, if true (the default), tab_size and translate_tabs_to_spaces will be calculated automatically when loading a file
-    "detect_indentation": true,
-
-    // Boolean, If translate_tabs_to_spaces is true, use_tab_stops will make tab and backspace insert/delete up to the next tab stop
-    "use_tab_stops": true
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
+	"detect_indentation": true,
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"Six",
+		"Vintage",
+		"Vintageous"
+	],
+	"neovintageous_build_version": 11100,
+	"tab_size": 4,
+	"theme": "ayu-dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"use_tab_stops": true,
+	"vintageous_use_ctrl_keys": true,
+	"vintageous_use_super_keys": false
 }
