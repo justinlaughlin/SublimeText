@@ -1,5 +1,9 @@
 [
 	
 	{"keys": ["ctrl+c"], "command": "copy" },
-	{ "keys": ["ctrl+a"], "command": "select_all" }
+	{ "keys": ["ctrl+a"], "command": "select_all" },
+    {"keys": ["ctrl+shift+w"], "command": "close_file" },
+    {"keys": ["ctrl+tab"], "command": "next_view"},
+    {"keys": ["ctrl+shift+tab"], "command": "prev_view"}
+
 ]
